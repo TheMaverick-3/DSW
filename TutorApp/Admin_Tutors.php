@@ -45,7 +45,7 @@ if (isset($_GET['logout'])) {
                 <li><a href="Admin_Dashboard.php">Dashboard</a></li>
                 <li><a href="Admin_Tutors.php">Tutors</a></li>
                 <li id="name"> <?php echo "User: ".$_SESSION['username']; ?></li>
-                <li><a href="Admin_Dashboard.php?logout='1'" style="color: red;">Log Out</a></li>
+                <li><a href="Admin_Dashboard.php?logout='1'" style="color: red ;">Log Out</a></li>
             </ul>
         </div>
     </nav>
